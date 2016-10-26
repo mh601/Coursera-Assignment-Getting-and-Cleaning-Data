@@ -62,15 +62,6 @@ Please note -XYZ indicates each value occurs for X,Y,Z
 * fBodyGyroJerkMagMean
 * fBodyGyroJerkMagStd
 
-### The Activity  
-The activities are described below 
-
-* WALKING
-* WALKING_UPSTAIRS
-* WALKING_DOWNSTAIRS
-* SITTING
-* STANDING
-* LAYING 
 
 
 

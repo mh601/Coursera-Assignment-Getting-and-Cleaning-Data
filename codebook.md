@@ -9,7 +9,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Tidy Data
  The dataset tidy.txt is the tidy  data resulting with averages for selected measurements of the merged train and test data.
  
- The data is made up of **Subject ID**, activity and the features measured.
+ The data is made up of **Subject ID**, **activity** and the **features measured**.
+ 
+ ### The Subject ID
+The subject ids are from 1-30 
  
 ### The Activity  
 The activities are described below 

@@ -1,4 +1,3 @@
-library(reshape2)
 
 ## Set the name of the file  
 filename <- "mydata_dataset.zip"

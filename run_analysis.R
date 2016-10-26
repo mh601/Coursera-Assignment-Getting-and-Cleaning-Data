@@ -43,10 +43,11 @@ filename <- "mydata_dataset.zip"
    allData <- rbind(train, test)
    colnames(allData) <- c("subject", "activity", featuresWanted.names)
    
-   # turn activities & subjects into factors
+   ## turn activities & subjects into factors
    allData$activity <- factor(allData$activity, levels = activityLabels[,1], labels = activityLabels[,2])
    allData$subject <- as.factor(allData$subject)
    
+   ## get mean of all measuremnts
    allData.melted <- melt(allData, id = c("subject", "activity"))
    allData.mean <- dcast(allData.melted, subject + activity ~ variable, mean)
    
